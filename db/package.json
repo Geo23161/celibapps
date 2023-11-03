@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "cordova-sqlite-storage": "^6.1.0",
+    "localforage-cordovasqlitedriver": "^1.8.0"
+  }
+}
