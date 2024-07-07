@@ -8,14 +8,13 @@ https://docs.djangoproject.com/en/4.2/howto/deployment/asgi/
 """
 
 import os
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'perfectlov.settings')
 
 from app import routing
 from django.core.asgi import get_asgi_application
 from channels.routing import ProtocolTypeRouter, URLRouter
 from channels.auth import AuthMiddlewareStack
 from django_channels_jwt_auth_middleware.auth import JWTAuthMiddlewareStack
-
-#os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'perfectlov.settings')
 
 application = ProtocolTypeRouter({
     "http" : get_asgi_application(),
