@@ -207,5 +207,5 @@ STATIC_ROOT = BASE_DIR / "staticfiles"
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-cred = credentials.Certificate(os.path.join(BASE_DIR, "celibapps-firebase-adminsdk-he4un-d193795a54.json"))
-firebase_admin.initialize_app(cred)
+"""cred = credentials.Certificate(os.path.join(BASE_DIR, "celibapps-firebase-adminsdk-he4un-d193795a54.json"))
+firebase_admin.initialize_app(cred)"""
