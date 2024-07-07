@@ -95,7 +95,7 @@ ASGI_APPLICATION = 'perfectlov.asgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/4.2/re
-    'app',f/settings/#databases
+
 
 if "DATABASE_SECRET" in environ:
     database_secret = environ.get("DATABASE_SECRET")
