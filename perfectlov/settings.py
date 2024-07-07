@@ -17,6 +17,7 @@ import os
 import firebase_admin
 from firebase_admin import credentials
 import dj_database_url
+from os import environ
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
