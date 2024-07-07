@@ -15,7 +15,7 @@ from channels.routing import ProtocolTypeRouter, URLRouter
 from channels.auth import AuthMiddlewareStack
 from django_channels_jwt_auth_middleware.auth import JWTAuthMiddlewareStack
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'perfectlov.settings')
+#os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'perfectlov.settings')
 
 application = ProtocolTypeRouter({
     "http" : get_asgi_application(),
